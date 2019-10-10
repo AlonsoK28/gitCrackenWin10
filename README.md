@@ -1,3 +1,7 @@
-#runs with `npm run win10`
+# Requirements
+## Node.js v10 LTS or later
 
-#enjoy
+# Usage
+## runs with `npm run win10`
+
+### enjoy
