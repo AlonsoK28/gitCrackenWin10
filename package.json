@@ -15,7 +15,7 @@
     "gitcracken": "node dist/bin/gitcracken.js",
     "gitcracken:dev": "node $NODE_DEBUG_OPTION -r ts-node/register bin/gitcracken.ts",
     "lint": "tslint -p tsconfig.json",
-    "win10": "npm run gitcracken patcher"
+    "win10": "npm i & npm run build && npm run gitcracken patcher"
   },
   "dependencies": {
     "asar": "^2.0.1",
